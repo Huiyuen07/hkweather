@@ -1,0 +1,9 @@
+# 本機跟進清單（含 production 細節，不公開）/ local follow-up list
+IMPROVEMENTS.md
+
+node_modules/
+.DS_Store
+*.log
+.env
+*.pem
+*.key

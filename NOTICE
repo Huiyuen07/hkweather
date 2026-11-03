@@ -1,0 +1,23 @@
+hkweather
+Copyright (c) 2026 Hayden
+
+本 repo 的 MIT 授權只涵蓋本 repo 自寫的程式碼。
+香港天文台（天文台）的數據、天氣圖示及警告圖示不屬本 repo，亦不在 MIT 授權範圍內。
+本卡片在瀏覽器內直接向天文台讀取數據及圖示，repo 內沒有任何天文台圖示檔。
+數據及圖示的知識產權屬香港特別行政區政府，使用須遵守：
+- 天文台網站資料的使用條件（非商業用途）：https://www.hko.gov.hk/tc/appweb/applink.htm
+- 天文台重要告示（含知識產權公告）：https://www.hko.gov.hk/tc/readme/readme.htm
+- DATA.GOV.HK 使用條款：https://data.gov.hk/tc/terms-and-conditions
+
+The MIT licence of this repository covers only the code written in this repository.
+Data, weather icons and warning icons of the Hong Kong Observatory (HKO) are not part of
+this repository and are not covered by the MIT licence. The card fetches data and icons
+directly from HKO in the browser; the repository contains no HKO icon files.
+Intellectual property rights in the data and icons belong to the Government of the Hong Kong
+Special Administrative Region. Their use is subject to:
+- Conditions for Non-commercial Use of HKO website materials: https://www.hko.gov.hk/en/appweb/applink.htm
+- HKO Important Notices (including the Intellectual Property Rights Notice): https://www.hko.gov.hk/en/readme/readme.htm
+- DATA.GOV.HK Terms and Conditions: https://data.gov.hk/en/terms-and-conditions
+
+資料來源：香港天文台、香港特別行政區政府、DATA.GOV.HK。
+Source: Hong Kong Observatory, Government of the HKSAR, DATA.GOV.HK.

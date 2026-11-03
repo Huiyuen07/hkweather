@@ -1,0 +1,25 @@
+{
+  "WTCSGNL": {
+    "name": "熱帶氣旋警告信號",
+    "code": "CANCEL",
+    "actionCode": "CANCEL",
+    "issueTime": "2026-09-24T10:20:00+08:00",
+    "updateTime": "2026-09-24T10:20:00+08:00"
+  },
+  "WRAIN": {
+    "name": "暴雨警告信號",
+    "code": "WRAINA",
+    "type": "黃色",
+    "actionCode": "CANCEL",
+    "issueTime": "2026-09-24T10:45:00+08:00",
+    "updateTime": "2026-09-24T10:45:00+08:00"
+  },
+  "WTS": {
+    "name": "雷暴警告",
+    "code": "WTS",
+    "actionCode": "EXTEND",
+    "issueTime": "2026-09-24T08:40:00+08:00",
+    "expireTime": "2026-09-24T19:30:00+08:00",
+    "updateTime": "2026-09-24T11:00:00+08:00"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hkweather",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Hong Kong Observatory weather warning and current weather badges for Home Assistant",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

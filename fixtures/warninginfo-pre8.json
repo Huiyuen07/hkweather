@@ -1,0 +1,19 @@
+{
+  "details": [
+    {
+      "contents": [
+        "三號強風信號已於上午9時40分發出。"
+      ],
+      "warningStatementCode": "WTCSGNL",
+      "subtype": "TC3",
+      "updateTime": "2026-09-24T09:40:00+08:00"
+    },
+    {
+      "contents": [
+        "天文台宣布，八號熱帶氣旋警告信號將於今日下午4時10分或之前發出。"
+      ],
+      "warningStatementCode": "WTCPRE8",
+      "updateTime": "2026-09-24T14:10:00+08:00"
+    }
+  ]
+}

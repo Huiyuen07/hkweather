@@ -1,0 +1,83 @@
+{
+  "WFIRE": {
+    "name": "火災危險警告",
+    "code": "WFIREY",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00",
+    "type": "黃色"
+  },
+  "WFROST": {
+    "name": "霜凍警告",
+    "code": "WFROST",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WHOT": {
+    "name": "酷熱天氣警告",
+    "code": "WHOT",
+    "actionCode": "REISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WCOLD": {
+    "name": "寒冷天氣警告",
+    "code": "WCOLD",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WMSGNL": {
+    "name": "強烈季候風信號",
+    "code": "WMSGNL",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WRAIN": {
+    "name": "暴雨警告信號",
+    "code": "WRAINR",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00",
+    "type": "紅色"
+  },
+  "WFNTSA": {
+    "name": "新界北部水浸特別報告",
+    "code": "WFNTSA",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WL": {
+    "name": "山泥傾瀉警告",
+    "code": "WL",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WTCSGNL": {
+    "name": "熱帶氣旋警告信號",
+    "code": "TC8NE",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00",
+    "type": "八號東北烈風或暴風信號"
+  },
+  "WTMW": {
+    "name": "海嘯警告",
+    "code": "WTMW",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00"
+  },
+  "WTS": {
+    "name": "雷暴警告",
+    "code": "WTS",
+    "actionCode": "ISSUE",
+    "issueTime": "2026-09-24T11:15:00+08:00",
+    "updateTime": "2026-09-24T11:15:00+08:00",
+    "expireTime": "2026-09-24T19:30:00+08:00"
+  }
+}
