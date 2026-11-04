@@ -2,9 +2,11 @@
 
 [中文](#中文) | [English](#english)
 
-![天文台天氣 badge 及卡片 / HKO weather badges and card](images/screenshot.png)
+![天文台天氣 badge 及卡片（淺色主題）/ HKO weather badges and card (light theme)](images/screenshot.png)
 
-<sub>截圖為圖示未能載入時的後備樣式；實際使用時，天氣及警告會顯示香港天文台的官方圖示。<br>The screenshot shows the fallback style used when icons cannot load. In normal use, weather and warnings show the Hong Kong Observatory's official icons.</sub>
+![天文台天氣 badge 及卡片（深色主題）/ HKO weather badges and card (dark theme)](images/screenshot-dark.png)
+
+<sub>截圖展示卡片實際運作情況；警告為模擬數據（八號東北＋紅雨＋雷暴）。截圖中的天氣及警告圖示屬香港天文台，不在本 repo 的 MIT 授權範圍內。<br>The screenshots show the card in actual use; the warnings are mock data (no. 8 NE + red rain + thunderstorm). The weather and warning icons in the screenshots belong to the Hong Kong Observatory and are not covered by this repository's MIT licence.</sub>
 
 ## 中文
 
@@ -85,8 +87,10 @@ content: [description, temperature, humidity]
 ### 警告次序與圖示
 
 - 次序跟隨天文台網站：熱帶氣旋信號 → 預警八號特別報告 → 暴雨 → 山泥傾瀉 → 雷暴 → 新界北部水浸 → 強烈季候風 → 霜凍 → 火災危險 → 寒冷 → 酷熱 → 海嘯。
-- 圖示直接從 `www.hko.gov.hk` 載入，本 repo 不含任何天文台圖示檔。圖示縮放至 70% 放在圓框內，整個圖示保持完整可見。
+- 圖示直接從 `www.hko.gov.hk` 載入，本 repo 不含天文台圖示檔（README 截圖除外，只用作展示實際運作）。圖示縮放至 70% 放在圓框內，整個圖示保持完整可見。
 - 預警八號特別報告沒有官方圖示；任何圖示載入失敗時，會改為顯示色點加警告簡稱。滑鼠移到警告上可看到全名和發出時間。
+
+  ![圖示未能載入時的後備樣式](images/screenshot-fallback.png)
 
 ### 自動化
 
@@ -212,8 +216,10 @@ Card:
 ### Warning order and icons
 
 - The order follows the HKO website: tropical cyclone signal → pre-no. 8 special announcement → rainstorm → landslip → thunderstorm → northern New Territories flooding → strong monsoon → frost → fire danger → cold → very hot → tsunami.
-- Icons load directly from `www.hko.gov.hk`; this repository contains no HKO icon files. Icons are scaled to 70% inside a round frame, so each whole icon stays visible.
+- Icons load directly from `www.hko.gov.hk`; this repository contains no HKO icon files (except the README screenshots, which only show the card in actual use). Icons are scaled to 70% inside a round frame, so each whole icon stays visible.
 - The pre-no. 8 special announcement has no official icon. If any icon fails to load, a coloured dot and the warning's short name are shown instead. Hover over a warning for its full name and issue time.
+
+  ![Fallback style when icons cannot load](images/screenshot-fallback.png)
 
 ### Automations
 
