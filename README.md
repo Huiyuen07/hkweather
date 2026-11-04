@@ -22,19 +22,17 @@
 
 ### 安裝
 
-#### 方法一：HACS（待批核）
+#### 方法一：HACS（建議）
 
 [![在 HACS 開啟](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Huiyuen07&repository=hkweather&category=plugin)
 
-在 HACS 搜尋「天文台天氣 HKO Weather」並下載，然後重新整理瀏覽器。HACS 會自動加入資源，版本更新也在 HACS 完成。
+在 HACS 搜尋「天文台天氣 HKO Weather」並下載，然後重新整理瀏覽器。
 
-#### 方法二：HACS 自訂 repository
+HACS 會自動加入資源，版本更新也在 HACS 完成。如果資源是用 YAML 管理，要自行加入 `/hacsfiles/hkweather/hkweather.js`。
 
-1. HACS → 右上角選單 → **Custom repositories**，加入 `https://github.com/Huiyuen07/hkweather`，類別選 **Dashboard**。
-2. 搜尋「天文台天氣 HKO Weather」並下載。
-3. 重新整理瀏覽器。
+搜尋不到的話（例如 HACS 版本較舊），可以先在 HACS 右上角選單選 **Custom repositories**，加入 `https://github.com/Huiyuen07/hkweather`，類別選 **Dashboard**，再搜尋。
 
-#### 方法三：手動下載
+#### 方法二：手動下載
 
 1. 把 `dist/` 內全部 5 個 `.js` 檔放到 Home Assistant 的 `/config/www/hkweather/`。
 2. 設定 → 儀表板 → 右上角選單 → **資源**，新增 `/local/hkweather/hkweather.js`，類型選 **JavaScript 模組**。
@@ -122,19 +120,17 @@ The browser reads the data straight from HKO, every 5 minutes by default and whe
 
 ### Install
 
-#### Option 1: HACS (pending approval)
+#### Option 1: HACS (recommended)
 
 [![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Huiyuen07&repository=hkweather&category=plugin)
 
-Search HACS for "天文台天氣 HKO Weather", download it, then reload the browser. HACS adds the resource for you and handles updates.
+Search HACS for "天文台天氣 HKO Weather", download it, then reload the browser.
 
-#### Option 2: HACS custom repository
+HACS adds the resource for you and handles updates. If you manage resources in YAML, add `/hacsfiles/hkweather/hkweather.js` yourself.
 
-1. HACS → top-right menu → **Custom repositories**, add `https://github.com/Huiyuen07/hkweather` with category **Dashboard**.
-2. Search for "天文台天氣 HKO Weather" and download it.
-3. Reload the browser.
+If the search finds nothing (for example, on an older HACS), open the top-right menu in HACS, choose **Custom repositories**, add `https://github.com/Huiyuen07/hkweather` with category **Dashboard**, then search again.
 
-#### Option 3: Manual download
+#### Option 2: Manual download
 
 1. Copy all 5 `.js` files in `dist/` to `/config/www/hkweather/` on Home Assistant.
 2. Settings → Dashboards → top-right menu → **Resources**, add `/local/hkweather/hkweather.js` as a **JavaScript module**.
